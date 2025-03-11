@@ -1,1 +1,47 @@
 /* Application styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: bold;
+  color: #ffffff !important;
+  font-size: 1.25rem; /* Make all nav links the same size */
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar-text {
+  font-style: italic;
+  color: #ffeb3b;
+}
+
+.navbar-brand.mx-auto {
+  text-transform: uppercase; /* Make the title all caps */
+  font-size: 1.5rem; /* Increase the font size of the title */
+}
+
+.alert-success {
+  background-color: #e8f5e9;
+  border-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+/* Ensure proper alignment for nav items */
+.navbar-nav {
+  align-items: center;
+}
+
